@@ -1,0 +1,13 @@
+{
+  "name": "music-dj-agent",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "concurrently --kill-others \"npm run dev -w apps/server\" \"npm run dev -w apps/web\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.0.0"
+  }
+}
