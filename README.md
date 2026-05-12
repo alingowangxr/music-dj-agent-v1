@@ -1,6 +1,7 @@
 # 🎧 MUSIC DJ AGENT V1
 
 一個專為深夜打造的 AI 音樂電台。使用自然語言描述你的心情或想聽的曲風，AI DJ 會為你挑選最合適的歌曲，並直接從 YouTube Music 串流播放。
+(練習調用LLM 與 youtube music api 的小作品)
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node](https://img.shields.io/badge/node-%3E%3D18.0.0-green.svg)
